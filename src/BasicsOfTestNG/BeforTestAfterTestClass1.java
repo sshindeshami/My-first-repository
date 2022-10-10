@@ -27,6 +27,12 @@ public class BeforTestAfterTestClass1 {
 	public void homePage() {
 		System.out.println("checking the homepage");
 	}
+      @Test(priority=2)
+	public void ForGitHub() {
+		System.out.println("this is modification for github");
+	}
+	
+
 	
 
 }
